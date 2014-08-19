@@ -145,5 +145,12 @@
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
         </dependency>
+        <dependency>
+            <!-- need minimum 16.0 to deploy on wildfly
+                 see https://code.google.com/p/guava-libraries/issues/detail?id=1527 -->
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>16.0.1</version>
+        </dependency>
     </dependencies>
 </project>
